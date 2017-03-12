@@ -13,5 +13,5 @@
 # }).call(this);
 
 @App ||= {}
-App.cable = ActionCable.CreateConsumer()
+App.cable = ActionCable.createConsumer()
 
